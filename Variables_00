@@ -1,0 +1,16 @@
+#!/bin/bash
+
+name="John"
+age=25
+echo "My name is $name and I am $age years old."
+
+name = "Alice"
+age = 30
+echo "My name is $name and I am $age years old."
+
+
+# Find the issue, bash is very particular when it comes to spacing in certain logic.
+
+# Run bash -x script.sh for example to get a line by line analysis.
+# https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-5.html
+# Answer = http://www.compciv.org/topics/bash/variables-and-substitution/ Section:: Setting a variable 
